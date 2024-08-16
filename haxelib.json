@@ -7,8 +7,5 @@
   "version" : "1.1.0",
   "classPath": "src/",
   "releasenote" : "Edit Pako includes issue",
-  "contributors" : ["starburst997"],
-  "dependencies" : {
-    "format": ""
-  }
+  "contributors" : ["starburst997"]
 }
