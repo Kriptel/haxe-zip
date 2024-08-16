@@ -9,6 +9,6 @@
   "releasenote" : "Edit Pako includes issue",
   "contributors" : ["starburst997"],
   "dependencies" : {
-    "format": "3.4.1"
+    "format": ""
   }
 }
