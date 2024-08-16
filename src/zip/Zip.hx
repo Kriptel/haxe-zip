@@ -119,9 +119,9 @@ class Zip
     var data = untyped __js__("pako.deflate")(bytes.getData(), {level: 9});
     return Bytes.ofData(data);
 
-    #elseif openfl
-
-    return format.tools.Deflate.run(bytes);
+    // Idk, not works in latest haxe version
+    // #elseif openfl
+    // return format.tools.Deflate.run(bytes);
     #else
 
     return rawCompress(bytes);
